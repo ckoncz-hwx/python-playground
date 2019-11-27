@@ -1,3 +1,4 @@
+import os
 from sismic.io import import_from_yaml
 from sismic.interpreter import Interpreter
 
@@ -13,7 +14,8 @@ def print_events(interpreter):
 
 
 # Load statechart from yaml file
-elevator = import_from_yaml(filepath='elevator.yaml')
+print('__file__', __file__)
+elevator = import_from_yaml(filepath=os.path.dirname(__file__)+'/elevator.yaml')
 
 # Create an interpreter for this statechart
 interpreter = Interpreter(elevator)
