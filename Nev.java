@@ -4,17 +4,7 @@
  */
 public class Nev{
     public static void main(String[] args) {
-        var console = System.console();
-        var out = console.writer();
-
-        out.println("Hello world from Java!");
-        
-        out.print("Mi lenni tied név? ");
-        out.flush();
-        var nev = console.readLine();
-        
-        out.println("Hello, "+nev);
-        
-        out.println("vege");
+        var name = System.console().readLine("What is your name? ");
+        System.console().writer().println("Hello, "+name);
     }
 }
