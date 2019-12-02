@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "my-venv/bin/python"
+   "python.pythonPath": "my-venv/bin/python",
+   "editor.autoSave": "on"
 }
