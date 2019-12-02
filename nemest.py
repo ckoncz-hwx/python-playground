@@ -9,10 +9,14 @@ osszes = []
 minim = []
 
 for i in range (n):
-    mostani = stdin.readline().split
+    mostani = stdin.readline().split()
     tomeg.append(int (mostani[0]))
     ar.append(int (mostani[1]))
     osszes.append(int (mostani[2]))
     minim.append(int (mostani[3]))
+
+print(tomeg,ar)
+
+# cat nemest.in | python nemest.py 
 
 
