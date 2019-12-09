@@ -20,7 +20,6 @@ out = 0
 for o in range (n):
     kszam=0
     nszam=0
-    lista = []
     for p in range (n-o-1):
         lista = []
         lista.append(szam[o])
