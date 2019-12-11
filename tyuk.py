@@ -8,9 +8,9 @@ s = lista[2]
 
 p1 = (50+math.sqrt(2500-200*s))/2
 if (p1>30):
-    p1= None
+    p1=""
 p2 = (50-math.sqrt(2500-200*s))/2
 if (p2>30):
-    p2= None
+    p2=""
 
 print(p1,p2)
