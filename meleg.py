@@ -14,8 +14,6 @@ for m in range (n-2):
          szam[m+1] = 2
         else :
              szam[m+1] = 0
-             print(napok[m],napok[m+1],napok[m+2],0)
-print(szam)
 out = 0
 for o in range (n):
     kszam=0
