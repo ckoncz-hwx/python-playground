@@ -7,7 +7,7 @@ for i in range(n-1):
    m = int(stdin.readline())
    data.append(m)
    apa.add(m)
-lista ={i+1 for i in range(10)}
+lista ={i+1 for i in range(n)}
 uco = list(lista-apa)
 ert=[]
 l=0
